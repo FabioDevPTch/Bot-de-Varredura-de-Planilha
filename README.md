@@ -1,0 +1,1 @@
+# Bot-de-Varredura-de-Planilha
