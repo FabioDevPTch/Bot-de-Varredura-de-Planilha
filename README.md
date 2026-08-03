@@ -67,8 +67,8 @@ Os dados presentes na planilha dependem das informações disponíveis no site n
 ## 📁 Estrutura do projeto
 
 ```text
-coletor-de-proxies/
-├── ColetorProxies.py
+BotVarreduraDePlanilha/
+├── BotVarreduraPlanilha.py
 ├── proxies.xlsx
 ├── README.md
 ├── COPYRIGHT.md
