@@ -196,7 +196,7 @@ Desenvolvido por **Fabio** como projeto de estudo em Python, automação web, Pl
 
 Copyright © 2026 FabioDevPTch. Todos os direitos reservados.
 
-Este projeto e seu código-fonte são de autoria de Fabio.
+Este projeto e seu código-fonte são de autoria de FabioDevPTch.
 
 O repositório está disponível publicamente para fins de estudo, demonstração técnica e apresentação de portfólio.
 
