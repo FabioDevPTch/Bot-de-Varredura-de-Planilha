@@ -192,7 +192,7 @@ Ao concluir, a planilha será criada na mesma pasta do código.
 
 Desenvolvido por **Fabio** como projeto de estudo em Python, automação web, Playwright, extração de dados e criação de planilhas com OpenPyXL.
 
-## ©️ Direitos autorais
+## Direitos autorais
 
 Copyright © 2026 FabioDevPTch. Todos os direitos reservados.
 
@@ -204,7 +204,7 @@ A disponibilização pública não concede automaticamente permissão para repro
 
 Consulte o arquivo [`COPYRIGHT.md`](COPYRIGHT.md) para conhecer as informações completas sobre os direitos autorais.
 
-## 📄 Licença
+## Licença
 
 Este projeto possui uma licença proprietária e não é distribuído sob uma licença de código aberto.
 
