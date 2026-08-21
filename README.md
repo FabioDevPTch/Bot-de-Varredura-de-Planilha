@@ -1,8 +1,8 @@
-# 🌐 Coletor de Proxies com Playwright e OpenPyXL
+# Coletor de Proxies com Playwright e OpenPyXL
 
 Automação desenvolvida em Python para acessar uma página web, extrair informações de servidores proxy e salvar os dados automaticamente em uma planilha Excel.
 
-## 📋 Sobre o projeto
+## Sobre o projeto
 
 Este projeto utiliza o Playwright para controlar um navegador Chromium, acessar uma página contendo uma tabela de proxies e extrair informações como endereço IP, porta e protocolo.
 
@@ -10,13 +10,13 @@ Após a coleta, os dados são armazenados em uma lista e exportados para uma pla
 
 A primeira linha da tabela é ignorada porque representa o cabeçalho da página. Cada uma das demais linhas é processada individualmente para obter os dados necessários.
 
-## 🎯 Objetivo
+## Objetivo
 
 Automatizar a coleta de informações de proxies disponíveis em uma página web e organizar os resultados em uma planilha Excel.
 
 O projeto busca substituir a cópia manual dos dados, reduzir erros de digitação e facilitar a organização das informações coletadas.
 
-## ✨ Funcionalidades
+## Funcionalidades
 
 - Inicialização automática do navegador Chromium;
 - Acesso automático à página de proxies;
@@ -32,7 +32,7 @@ O projeto busca substituir a cópia manual dos dados, reduzir erros de digitaç�
 - Salvamento automático do arquivo `proxies.xlsx`;
 - Encerramento do navegador após a coleta.
 
-## 🛠️ Tecnologias utilizadas
+## Tecnologias utilizadas
 
 - Python
 - Playwright
@@ -40,7 +40,7 @@ O projeto busca substituir a cópia manual dos dados, reduzir erros de digitaç�
 - Chromium
 - Microsoft Excel ou outro programa compatível com arquivos `.xlsx`
 
-## 📊 Formato da planilha
+## Formato da planilha
 
 A automação gera um arquivo chamado:
 
@@ -64,7 +64,7 @@ Exemplo:
 
 Os dados presentes na planilha dependem das informações disponíveis no site no momento da execução.
 
-## 📁 Estrutura do projeto
+## Estrutura do projeto
 
 ```text
 BotVarreduraDePlanilha/
@@ -79,7 +79,7 @@ BotVarreduraDePlanilha/
 
 ### Arquivos do projeto
 
-- `ColetorProxies.py`: arquivo principal que realiza a coleta e cria a planilha;
+- `BotVarreduraPlanilha.py`: arquivo principal que realiza a coleta e cria a planilha;
 - `proxies.xlsx`: arquivo gerado automaticamente após a execução;
 - `README.md`: documentação do projeto;
 - `COPYRIGHT.md`: informações relacionadas à autoria e aos direitos autorais;
@@ -87,7 +87,7 @@ BotVarreduraDePlanilha/
 - `requirements.txt`: bibliotecas externas necessárias;
 - `.gitignore`: arquivos e pastas que não devem ser enviados ao GitHub.
 
-## ⚙️ Pré-requisitos
+## Pré-requisitos
 
 Antes de executar o projeto, tenha instalado:
 
@@ -99,7 +99,7 @@ Antes de executar o projeto, tenha instalado:
 - Acesso à internet;
 - Um programa compatível com arquivos Excel.
 
-## 🚀 Instalação
+## Instalação
 
 Clone o repositório:
 
@@ -137,7 +137,7 @@ Instale o navegador Chromium do Playwright:
 python -m playwright install chromium
 ```
 
-## ▶️ Como executar
+## Como executar
 
 Execute o arquivo principal:
 
@@ -156,7 +156,7 @@ Durante a execução, o programa irá:
 
 Ao concluir, a planilha será criada na mesma pasta do código.
 
-## 🔄 Fluxo da automação
+## Fluxo da automação
 
 1. O Playwright é inicializado.
 2. O navegador Chromium é aberto em modo invisível.
@@ -175,7 +175,7 @@ Ao concluir, a planilha será criada na mesma pasta do código.
 15. Os proxies coletados são adicionados à planilha.
 16. O arquivo é salvo como `proxies.xlsx`.
 
-## ⚠️ Limitações atuais
+## Limitações atuais
 
 - O projeto depende da disponibilidade da página utilizada;
 - Alterações na estrutura da tabela podem exigir atualização do código;
@@ -188,7 +188,7 @@ Ao concluir, a planilha será criada na mesma pasta do código.
 - O navegador é executado de forma invisível;
 - Não existe interface gráfica nesta versão.
 
-## 👨‍💻 Autor
+## Autor
 
 Desenvolvido por **Fabio** como projeto de estudo em Python, automação web, Playwright, extração de dados e criação de planilhas com OpenPyXL.
 
